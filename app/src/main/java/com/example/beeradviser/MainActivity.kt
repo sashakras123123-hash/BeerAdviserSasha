@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.Spinner
 import android.widget.TextView
+import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -21,6 +22,9 @@ class MainActivity : AppCompatActivity() {
             val beers = beerList.reduce { str, item -> str + '\n' + item }
             val brands = findViewById<TextView>(R.id.brands)
             brands.text = beers
+
+            val imageView = findViewById<ImageView>(R.id.imageView1)
+            imageView.setImageResource(R.drawable.a5e30003c7fca6e216a3de2458310730)
         }
     }
 
