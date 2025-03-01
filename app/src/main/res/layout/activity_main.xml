@@ -32,4 +32,11 @@
         android:layout_margin="16dp"
         android:text="@string/beer_types" />
 
+    <ImageView
+        android:id="@+id/beer_image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp" />
+
 </LinearLayout>
