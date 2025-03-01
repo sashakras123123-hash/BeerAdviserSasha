@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Beer Adviser</string>
     <string name="find_beer">Find Beer</string>
-    <string name="beer_types">Beer types</string>
+    <string name="beer_types">Медведь(но не медведь)s</string>
     <string-array name="beer_colors">
         <item>Light</item>
         <item>Amber</item>
