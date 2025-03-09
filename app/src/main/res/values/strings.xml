@@ -8,4 +8,9 @@
         <item>Brown</item>
         <item>Dark</item>
     </string-array>
+    <string-array name="beer_tastes">
+        <item>Sweet</item>
+        <item>Malty</item>
+        <item>Bitter</item>
+    </string-array>
 </resources>

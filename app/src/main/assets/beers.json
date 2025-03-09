@@ -1,0 +1,23 @@
+{
+  "light": {
+    "sweet": ["Jail Pale Ale"],
+    "malty": ["Saison Dupont"],
+    "bitter": ["Houblon Chouff"]
+  },
+  "amber": {
+    "sweet": ["Red Moose"],
+    "malty": ["Chimay Triple"],
+    "bitter": ["Lancaster amber"]
+  },
+  "brown": {
+    "sweet": ["Kasteel Donker"],
+    "malty": ["Chimay Bleue", "Gregorius"],
+    "bitter": ["Rochefort 10"]
+  },
+  "dark": {
+    "sweet": ["Smeerolie"],
+    "malty": ["Ardenne Stout"],
+    "bitter": ["Night Drift"]
+  }
+
+}
