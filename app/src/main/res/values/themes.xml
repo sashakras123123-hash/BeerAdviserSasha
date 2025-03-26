@@ -2,7 +2,10 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.BeerAdviser" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/sunstained</item>
+        <item name="colorSecondary">@color/play_blue</item>
+        <item name="colorTertiary">@color/is_it_orange</item>
+        <item name="android:textColor">@color/sunstained</item>
     </style>
 
     <style name="Theme.BeerAdviser" parent="Base.Theme.BeerAdviser" />

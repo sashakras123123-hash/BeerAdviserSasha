@@ -6,30 +6,39 @@
     android:layout_height="match_parent"
     android:padding="16dp"
     android:orientation="vertical"
+    android:background="@color/play_blue"
     tools:context=".MainActivity">
 
     <Spinner
         android:id="@+id/beer_color"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="10"
         android:layout_gravity="center"
+        android:gravity="top"
         android:layout_margin="16dp"
-        android:entries="@array/beer_colors"/>
+        android:entries="@array/beer_colors" />
 
     <Button
         android:id="@+id/find_beer"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
         android:layout_gravity="center"
+        android:textSize="22sp"
         android:layout_margin="16dp"
-        android:text="@string/find_beer" />
+        android:text="@string/find_beer"
+        android:textColor="@color/is_it_orange"/>
 
     <TextView
         android:id="@+id/brands"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_gravity="center"
+        android:layout_weight="15"
+        android:gravity="center"
         android:layout_margin="16dp"
-        android:text="@string/beer_types" />
+        android:textSize="18sp"
+        android:text="@string/beer_types"
+        android:textColor="@color/sunstained"/>
 
 </LinearLayout>
