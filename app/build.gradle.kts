@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.beeradviser"
+    namespace = "com.example.stopwatch"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.beeradviser"
+        applicationId = "com.example.stopwatch"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
