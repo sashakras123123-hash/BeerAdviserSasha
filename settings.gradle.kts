@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Beer Adviser"
+rootProject.name = "Stopwatch"
 include(":app")
  
